@@ -1,8 +1,5 @@
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     font-family: "Arial", sans-serif;
 }
 .container {
@@ -11,45 +8,45 @@ body {
     align-items: center;
     text-align: center;
 }
-main{
-    flex: 1;
-}
 .main {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
+    padding: 0px;
 }
 .main img {
-    max-width: 50%;
-    margin-left: auto;
+    max-width: 56%;
+    margin: 0px 0px 0px 0;
     height: auto;
 }
 .login {
+    /*margin: 0 300px;*/
     max-width: 50%;
     padding: 20px;
+    margin-left: 200px;
 }
 .login h2 {
-    font-size: 24px;
+    font-size: 50px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 259;
+    font-style: normal;
 }
-.linebod {
+.line {
     display: inline-block; /* Para que el elemento ocupe solo el ancho necesario */
     width: 100%; /* Para expandir la línea horizontalmente */
-    border-bottom: 1px solid black; /* Estilo de la línea */
+    border-bottom: 4px solid black; /* Estilo de la línea */
     margin: 5px 0; /* Espaciado vertical */
 }
 .login button {
-    background-color: white;
-    border: 1px solid #ddd;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 .login button img {
-    height: 20px;
+    height: 100px;
     margin-right: 10px;
 }

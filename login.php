@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos de Ingeniería en Computación</title>
-    <?php include 'include.php'; ?>
+    <?php include 'include_login.php'; ?>
 </head>
 
 <body>
@@ -18,10 +18,11 @@
             <img src="img\fondoinicio.png" alt="Persona programando">
             <div class="login">
                 <h2>Iniciar Sesión</h2>
+                <span class="line"></span>
+                <h2>Registrarse</h2>
                 <button>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Google_%22G%22_Logo.svg"
-                        alt="Google logo">
-                    Registrarse
+                    <img src="img\googleLogo.png" alt="Google logo">
+                    Cuenta Google
                 </button>
             </div>
         </div>
