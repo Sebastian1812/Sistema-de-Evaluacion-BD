@@ -20,10 +20,12 @@
                 <h2>Iniciar Sesión</h2>
                 <span class="line"></span>
                 <h2>Registrarse</h2>
-                <button>
-                    <img src="img\googleLogo.png" alt="Google logo">
-                    Cuenta Google
-                </button>
+                <form action="perfil_usuarioestudiante.php" method="POST">
+                    <button type="submit">
+                        <img src="img\googleLogo.png" alt="Google logo">
+                        Cuenta Google
+                    </button>
+                </form>
             </div>
         </div>
 
