@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Arial", sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main{
+    flex: 1;
+}
+.header {
+    background-color: #00a74f;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 191;
+    font-style: normal;
+}
+.header img {
+    height: 120px;
+    margin-left: 10px;
+}
+.header h1 {
+    margin: 0 25px;
+    color: #3b3b3b;
+    font-size: 24px;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.main img {
+    max-width: 50%;
+    margin-left: auto;
+    height: auto;
+}
+.login {
+    max-width: 50%;
+    padding: 20px;
+}
+.login h2 {
+    font-size: 24px;
+}
+.linebod {
+    display: inline-block; /* Para que el elemento ocupe solo el ancho necesario */
+    width: 100%; /* Para expandir la línea horizontalmente */
+    border-bottom: 1px solid black; /* Estilo de la línea */
+    margin: 5px 0; /* Espaciado vertical */
+}
+.login button {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login button img {
+    height: 20px;
+    margin-right: 10px;
+}
+.footer {
+    background-color: #00a74f;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    align-items: center;
+}
+
+
+
+.footer img {
+    height: 30px;
+    margin: 10px 3px 30px 5px;
+}
+
+.footer h3 {
+    margin: 0;
+    color: #3b3b3b;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}
+
