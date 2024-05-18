@@ -15,18 +15,23 @@
         <?php
             require('local.php');
             $link = conectando();
-            $sql = "SELECT descripcion_area FROM area";
+            $sql = "SELECT descripcion_area, id_area FROM area";
             if($link) {
                 $result = mysqli_query($link, $sql);
                 if (mysqli_num_rows($result) > 0){
                     while ($row = mysqli_fetch_assoc($result)){
                         echo "<div class='subject-card'>";
-                        echo "<img src='img/iconBD.png' alt='Imagen'>";
+                        echo "<img src='img/iconsAreas/".$row['id_area'].".png' alt='Imagen'>";
                         echo "<h3>".$row['descripcion_area']."</h3>";
                         echo "</div>";
                     }
                 }
             }
+            else
+            {
+                echo "no se pudo establecer la conexión";
+            }
+            mysqli_close($link);
         ?>      
 
         </div>
