@@ -2,7 +2,7 @@
     .footer {
         background-color: #00a74f;
         padding: 10px;
-        width: 100%;    
+        width: auto;    
         display: flex;
         justify-content: space-between;
         align-items: center;

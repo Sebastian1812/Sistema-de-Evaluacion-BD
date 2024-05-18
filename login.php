@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos de Ingeniería en Computación</title>
+    <title>Login</title>
     <?php include 'include_login.php'; ?>
 </head>
-
+<?php include 'header.php'; ?>
 <body>
     <div class="container">
-
-        <?php include 'header.php'; ?>
-
         <div class="main">
             <!-- COLOCAR MENU MAIN -->
             <img src="img\fondoinicio.png" alt="Persona programando">
@@ -28,7 +25,6 @@
                 </form>
             </div>
         </div>
-
     </div>
 </body>
 <?php include 'footer.php'; ?>

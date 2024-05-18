@@ -3,10 +3,11 @@
     background-color: #00a74f;
     color: white;
     padding: 10px;
-    width: 100%;
+    width: auto;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
+
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 191;
@@ -17,13 +18,13 @@
     margin-left: 10px;
 }
 .header h1 {
-    margin: 0 25px;
+    margin: 0px auto 10px 20px;
     color: #3b3b3b;
     font-size: 24px;
 }
 </style>
-        <div class="header">
-            <img src="img\UABC.png" alt="Escudo UABC"><!-- COLOCAR ImagenEscudoUABC -->
-            <h1>CURSOS DE INGENIERIA EN COMPUTACIÓN</h1>
-        </div>
+<div class="header">
+    <img src="img\UABC.png" alt="Escudo UABC">
+    <h1>CURSOS DE INGENIERIA<br>EN COMPUTACIÓN</h1>
+</div>
         
