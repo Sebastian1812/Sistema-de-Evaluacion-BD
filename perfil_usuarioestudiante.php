@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil</title>
-    <?php include 'include_miperfil.php'; ?>
+    <?php include 'include.php'; ?>
+    
+
+<title>Mi Perfil</title>
+   
 </head>
 <?php include 'header_usuarioestudiante.php'; ?>
 <body>
@@ -17,6 +20,7 @@
                 <label>Cerrar<br>Sesión</label>
             </button>
         </div>
+        
         <div class="profile-right">
             <div class="profile-info">
                 <label>Nombre</label>
