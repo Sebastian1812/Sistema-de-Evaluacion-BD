@@ -2,7 +2,7 @@
 .header {
     background-color: #00a74f;
     color: white;
-    padding: 10px;
+    padding: auto;
     width: auto;
     display: flex;
     align-items: center;

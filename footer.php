@@ -1,7 +1,7 @@
 <style>
     .footer {
         background-color: #00a74f;
-        padding: 10px;
+        padding: auto;
         width: auto;    
         display: flex;
         justify-content: space-between;

@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #00a74f;
     color: white;
-    padding: 10px;
+    padding: auto;
     width: 100%;
     display: flex;
     align-items: center;

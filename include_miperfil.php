@@ -58,7 +58,7 @@
             display: flex;
             justify-content: space-between;
             width: 100%;
-            padding: 10px;
+            padding: 50px 10px;
             background-color: white;
             border-radius: 5px;
         }
