@@ -15,18 +15,18 @@
         <div class="title">Calificaciones</div>
         <div class="grades-container">
             <div class="grade-bar">
-                <img src="img/iconBD.png" alt="Bases de Datos">
+                <img src="img/iconsAreas/1.png" alt="Bases de Datos">
                 <span class="subject-name">Bases de Datos</span>
                 <span class="grade">0.0</span>
             </div>
             <div class="grade-bar">
-                <img src="img/iconDW.png" alt="Desarrollo Web">
+                <img src="img/iconsAreas/2.png" alt="Desarrollo Web">
                 <span class="subject-name">Desarrollo Web</span>
                 <span class="grade">0.0</span>
             </div>
             <div class="grade-bar">
-                <img src="img/iconPython.png" alt="Desarrollo de Programación Python">
-                <span class="subject-name">Desarrollo Web</span>
+                <img src="img/iconsAreas/3.png" alt="Desarrollo de Programación Python">
+                <span class="subject-name">Lenguaje de Programación en Python</span>
                 <span class="grade">0.0</span>
             </div>
         </div>
