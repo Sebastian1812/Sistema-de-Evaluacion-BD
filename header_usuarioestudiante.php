@@ -43,9 +43,9 @@
     <img src="img\UABC.png" alt="Escudo UABC">
     <h1>CURSOS DE INGENIERIA<br>EN COMPUTACIÓN</h1>
     <div class="nav-buttons">
-        <a href="areas.php">ÁREAS</a>
-        <a href="calificaciones.php">CALIFICACIONES</a>
-        <a href="perfil.php">PERFIL</a>
+        <a href="perfil_areassestudiante.php">ÁREAS</a>
+        <a href="perfil_calificacionestudiante.php">CALIFICACIONES</a>
+        <a href="perfil_usuarioestudiante.php">PERFIL</a>
     </div>
 </div>
         

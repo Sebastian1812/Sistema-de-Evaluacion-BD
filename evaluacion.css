@@ -3,8 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: "Arial", sans-serif;
-    background-color: #f6f4f3;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
 }
 
 .container {
@@ -116,5 +116,101 @@ main{
     color: #3b3b3b;
 }
 .profile-info span {
+    color: #3b3b3b;
+}
+
+/*Area Estudiante*/
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #00bf63;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-buttons a:hover {
+    background-color: #ccc;
+}
+.content {
+    padding: 20px;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #3b3b3b;
+    margin-bottom: 20px;
+}
+.subjects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.subject-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.subject-card:hover {
+    transform: scale(1.05);
+}
+.subject-card img {
+    height: 200px;
+    margin-bottom: 10px;
+}
+.subject-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+/*Calificaciones Estudiante*/
+
+.grades-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.grade-bar {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+.grade-bar:hover {
+    transform: scale(1.02);
+}
+.grade-bar img {
+    height: 50px;
+    margin-right: 20px;
+}
+.grade-bar .subject-name {
+    font-size: 18px;
+    color: #3b3b3b;
+    flex-grow: 1;
+}
+.grade-bar .grade {
+    font-size: 18px;
+    font-weight: bold;
     color: #3b3b3b;
 }
