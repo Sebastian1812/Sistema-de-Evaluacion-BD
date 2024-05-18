@@ -1,18 +1,19 @@
 <style>
     .footer {
     background-color: #00a74f;
-    padding: auto;
-    width: 100%;
+    padding: 10px;
     text-align: center;
+    width: 100%;    
     margin-top: auto;
-    align-items: center;
+    display: flex;
+    justify-content:space-between;
 }
 
 
 
 .footer img {
     height: 30px;
-    margin: 10px 3px 30px 5px;
+    margin-right: 30px;
 }
 
 .footer h3 {
@@ -27,15 +28,15 @@
 </style>
 
 <div class="footer">
-            <h3>UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA<p>@COPYRIGHT 2024</p></h3>
+            <h3>UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA<br>@COPYRIGHT 2024</h3>
             <a href="https://www.facebook.com/UABCInstitucional" target="_blank">
-                <img src="img\facebookLogo.png" alt="Facebook"> <!-- COLOCAR ImagenFacebook -->
+                <img src="img\facebookLogo.png" alt="Facebook">
             </a>
             <a href="mailto:comunicacion.uabc@uabc.edu.mx">
-            <img src="img\gmailLogo.png" alt="Gmail"> <!-- COLOCAR ImagenGmail -->
+                <img src="img\gmailLogo.png" alt="Gmail">
             </a>
             <a href="https://www.uabc.mx/" target="_blank">
-                <img src="img\weblogo.png" alt="Web"> <!-- COLOCAR ImagenWeb -->
+                <img src="img\weblogo.png" alt="Web">
             </a>
             
 </div>
