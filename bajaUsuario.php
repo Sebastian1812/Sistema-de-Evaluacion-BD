@@ -40,7 +40,7 @@
         }else{
             echo "Error en la sentencia de sql";
         }
-        
+         mysqli_close($link);
     }else{
         echo "No se ingresaron datos";
     }
