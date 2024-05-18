@@ -12,18 +12,22 @@
     <div class="content">
         <div class="title">ÁREAS</div>
         <div class="subjects-container">
-            <div class="subject-card">
-                <img src="img/iconBD.png" alt="Bases de Datos">
-                <h3>Bases de Datos</h3>
-            </div>
-            <div class="subject-card">
-                <img src="img/iconDW.png" alt="Desarrollo Web">
-                <h3>Desarrollo Web</h3>
-            </div>
-            <div class="subject-card">
-                <img src="img/iconPython.png" alt="Desarrollo Web">
-                <h3>Desarrollo de Programación Python</h3>
-            </div>
+        <?php
+            require('local.php');
+            $link = conectando();
+            $sql = "SELECT descripcion_area FROM area";
+            if($link) {
+                $result = mysqli_query($link, $sql);
+                if (mysqli_num_rows($result) > 0){
+                    while ($row = mysqli_fetch_assoc($result)){
+                        echo "<div class='subject-card'>";
+                        echo "<img src='img/iconBD.png' alt='Imagen'>";
+                        echo "<h3>".$row['descripcion_area']."</h3>";
+                        echo "</div>";
+                    }
+                }
+            }
+        ?>      
 
         </div>
     </div>
